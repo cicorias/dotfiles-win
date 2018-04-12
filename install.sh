@@ -53,7 +53,7 @@ rm -f ~/pictures
 ln -sf /mnt/c/Users/cicorias/Pictures ~/pictures
 echo "✔ alias for windows folders"
 
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt -qq install nodejs
 sudo apt -qq install npm
 sudo apt -qq install python-pip
