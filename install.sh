@@ -44,9 +44,9 @@ cp $(pwd)/scripts/* ~/.scripts/
 rm -f ~/c
 ln -sf /mnt/c ~/c
 rm -f ~/projects
-ln -sf /mnt/c/g ~/projects
+ln -sf /mnt/e/g ~/projects
 rm -f ~/g
-ln -sf /mnt/c/g ~/projects
+ln -sf /mnt/e/g ~/projects
 rm -f ~/downloads
 ln -sf /mnt/c/Users/cicorias/Downloads ~/downloads
 rm -f ~/pictures
