@@ -44,11 +44,13 @@ cp $(pwd)/scripts/* ~/.scripts/
 rm -f ~/c
 ln -sf /mnt/c ~/c
 rm -f ~/projects
-ln -sf /mnt/c/Projects ~/projects
+ln -sf /mnt/c/g ~/projects
+rm -f ~/g
+ln -sf /mnt/c/g ~/projects
 rm -f ~/downloads
-ln -sf /mnt/c/Users/jieverson/Downloads ~/downloads
+ln -sf /mnt/c/Users/cicorias/Downloads ~/downloads
 rm -f ~/pictures
-ln -sf /mnt/c/Users/jieverson/Pictures ~/pictures
+ln -sf /mnt/c/Users/cicorias/Pictures ~/pictures
 echo "✔ alias for windows folders"
 
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
