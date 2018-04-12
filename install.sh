@@ -46,7 +46,7 @@ ln -sf /mnt/c ~/c
 rm -f ~/projects
 ln -sf /mnt/e/g ~/projects
 rm -f ~/g
-ln -sf /mnt/e/g ~/projects
+ln -sf /mnt/e/g ~/g
 rm -f ~/downloads
 ln -sf /mnt/c/Users/cicorias/Downloads ~/downloads
 rm -f ~/pictures
